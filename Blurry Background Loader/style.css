@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.bg {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da19d0d6-f900-449f-b22c-99c05776a724/d39znix-8a142d03-dc1b-4435-96bd-0bcb50d9fb05.jpg/v1/fill/w_1000,h_666,q_75,strp/foggy_mountains_by_lucifersdream_d39znix-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjY2IiwicGF0aCI6IlwvZlwvZGExOWQwZDYtZjkwMC00NDlmLWIyMmMtOTljMDU3NzZhNzI0XC9kMzl6bml4LThhMTQyZDAzLWRjMWItNDQzNS05NmJkLTBiY2I1MGQ5ZmIwNS5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.npAnID3LBnPyP3BU5fMpWzWZeaCTSeuzVnNJ3spMNjw") no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px)
+}
+
+.loading-text {
+  font: 50px;
+  color: #fff
+}
